@@ -1,0 +1,32 @@
+{
+  "config": {
+    "hidden_layer_sizes": [
+      24,
+      12
+    ],
+    "alpha": 0.005,
+    "max_iter": 200,
+    "n_iter_no_change": 8,
+    "early_stopping": true,
+    "validation_fraction": 0.1,
+    "batch_size": 16,
+    "learning_rate_init": 0.001,
+    "activation": "relu",
+    "solver": "adam",
+    "random_state": 42,
+    "verbose": false
+  },
+  "results": {
+    "train_accuracy": 0.8192771084337349,
+    "test_accuracy": 0.7619047619047619,
+    "overfitting": 0.05737234652897305,
+    "cv_mean": 0.7288770053475935,
+    "cv_std": 0.07672839216393612,
+    "n_iter": 14,
+    "final_loss": 0.2798768515700823
+  },
+  "n_features": 60,
+  "n_train_samples": 166,
+  "n_test_samples": 42,
+  "timestamp": "2026-04-20T18:33:51.667483"
+}

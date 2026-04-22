@@ -1,0 +1,44 @@
+{
+  "timestamp": "20260420_181205",
+  "original_configuration": {
+    "\u914d\u7f6e": "\u539f\u59cb\u914d\u7f6e",
+    "\u7f51\u7edc\u7ed3\u6784": "(32, 16)",
+    "Alpha": 0.001,
+    "Max Iter": 500,
+    "\u65e9\u505c\u8010\u5fc3": 10,
+    "CV\u5e73\u5747\u51c6\u786e\u7387": 0.6335656213704994,
+    "CV\u6807\u51c6\u5dee": 0.15312565894190147,
+    "\u8bad\u7ec3\u51c6\u786e\u7387": 0.8253012048192772,
+    "\u6d4b\u8bd5\u51c6\u786e\u7387": 0.6904761904761905,
+    "\u8fc7\u62df\u5408\u7a0b\u5ea6": 0.1348250143430867,
+    "\u5b9e\u9645\u8fed\u4ee3\u6b21\u6570": 23
+  },
+  "balanced_configuration": {
+    "\u914d\u7f6e": "\u5e73\u8861\u914d\u7f6e",
+    "\u7f51\u7edc\u7ed3\u6784": "(24, 12)",
+    "Alpha": 0.005,
+    "Max Iter": 200,
+    "\u65e9\u505c\u8010\u5fc3": 8,
+    "CV\u5e73\u5747\u51c6\u786e\u7387": 0.6335656213704994,
+    "CV\u6807\u51c6\u5dee": 0.14848502905293806,
+    "\u8bad\u7ec3\u51c6\u786e\u7387": 0.8373493975903614,
+    "\u6d4b\u8bd5\u51c6\u786e\u7387": 0.7380952380952381,
+    "\u8fc7\u62df\u5408\u7a0b\u5ea6": 0.09925415949512328,
+    "\u5b9e\u9645\u8fed\u4ee3\u6b21\u6570": 23
+  },
+  "improvement": {
+    "test_accuracy_change": 0.04761904761904767,
+    "overfitting_change": -0.03557085484796341,
+    "iteration_change": 0
+  },
+  "final_recommendation": {
+    "hidden_layer_sizes": [
+      24,
+      12
+    ],
+    "alpha": 0.005,
+    "max_iter": 200,
+    "n_iter_no_change": 8,
+    "rationale": "\u5e73\u8861\u914d\u7f6e\u5728\u51cf\u5c11\u8fc7\u62df\u5408\u7684\u540c\u65f6\u4fdd\u6301\u8f83\u597d\u7684\u51c6\u786e\u7387"
+  }
+}
